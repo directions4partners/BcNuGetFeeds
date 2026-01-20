@@ -11,4 +11,16 @@
         "fingerprints": [
         ]
     }
+    {
+        "owner": "Continia",
+        "public": true,
+        "description": "This feed contains all NuGet packages created by repositories in the Directions4partners organization",
+        "contact": "support@continia.com",
+        "viewfeed": "https://dev.azure.com/continia-repository/ContiniaBCPublicFeeds/_artifacts/feed/AppSourceApps",
+        "url": "https://pkgs.dev.azure.com/continia-repository/ContiniaBCPublicFeeds/_packaging/AppSourceApps/nuget/v3/index.json",
+        "patterns": [
+        ],
+        "fingerprints": [
+        ]
+    }
 ]
