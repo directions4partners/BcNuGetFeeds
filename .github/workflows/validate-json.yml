@@ -41,7 +41,7 @@ jobs:
           Write-Host "✅ JSON syntax is valid" -ForegroundColor Green
           
           $errors = @()
-          $requiredFields = @('owner', 'public', 'description', 'viewfeed', 'url')
+          $requiredFields = @('owner', 'name', 'public', 'description', 'viewfeed', 'url')
           
           if ($json -isnot [System.Array]) {
             Write-Host "❌ BcNuGetFeeds.json must be an array" -ForegroundColor Red

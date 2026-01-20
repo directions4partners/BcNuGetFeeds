@@ -21,13 +21,13 @@ $jsonLines = Get-Content -Path $jsonPath
 function Get-EntryLineNumber {
     param(
         [string[]]$Lines,
-        [string]$Owner,
+        [string]$Name,
         [string]$Url
     )
     
     for ($i = 0; $i -lt $Lines.Count; $i++) {
-        # Look for the owner field that matches this entry
-        if ($Lines[$i] -match '"owner":\s*"' + [regex]::Escape($Owner) + '"') {
+        # Look for the name field that matches this entry
+        if ($Lines[$i] -match '"name":\s*"' + [regex]::Escape($Name) + '"') {
             # Go back to find the opening brace of this object
             for ($j = $i; $j -ge 0; $j--) {
                 if ($Lines[$j] -match '^\s*\{') {
@@ -41,13 +41,13 @@ function Get-EntryLineNumber {
     return 1
 }
 
-# Sort feeds by owner
-$sortedFeeds = $feeds | Sort-Object -Property owner
+# Sort feeds by owner, then by name
+$sortedFeeds = $feeds | Sort-Object -Property owner, name
 
 # Generate table rows
 $tableRows = @()
 foreach ($feed in $sortedFeeds) {
-    $lineNumber = Get-EntryLineNumber -Lines $jsonLines -Owner $feed.owner -Url $feed.url
+    $lineNumber = Get-EntryLineNumber -Lines $jsonLines -Name $feed.name -Url $feed.url
     $viewJsonUrl = "$RepoUrl/blob/main/BcNuGetFeeds.json#L$lineNumber"
     
     $publicIcon = if ($feed.public) { "✅" } else { "❌" }
@@ -56,7 +56,7 @@ foreach ($feed in $sortedFeeds) {
     $contactCell = if ($feed.contact) { "[Contact](mailto:$($feed.contact))" } else { "-" }
     
     # Build the table row
-    $row = "| $($feed.owner) | $publicIcon | $($feed.description) | [View feed]($($feed.viewfeed)) | [View json]($viewJsonUrl) | $contactCell |"
+    $row = "| $($feed.owner) | $($feed.name) | $publicIcon | $($feed.description) | [View feed]($($feed.viewfeed)) | [View json]($viewJsonUrl) | $contactCell |"
     $tableRows += $row
 }
 

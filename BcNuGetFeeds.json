@@ -1,6 +1,7 @@
 [
     {
         "owner": "Directions for Partners",
+        "name": "directions4partners",
         "public": true,
         "description": "This feed contains all NuGet packages created by repositories in the Directions4partners organization",
         "contact": "freddy@directions4partners.com",
@@ -13,6 +14,7 @@
     },
     {
         "owner": "Continia",
+        "name": "AppSourceApps",
         "public": true,
         "description": "This feed contains NuGet packages for AppSource Apps created by Continia",
         "contact": "",
@@ -25,6 +27,7 @@
     },
     {
         "owner": "Microsoft",
+        "name": "AppSourceSymbols",
         "public": true,
         "description": "This feed contains NuGet packages with symbols for all AppSource Apps.",
         "contact": "",
@@ -37,6 +40,7 @@
     },
     {
         "owner": "Microsoft",
+        "name": "MSApps",
         "public": true,
         "description": "This feed contains NuGet packages for all Microsoft apps.",
         "contact": "",
@@ -49,6 +53,7 @@
     },
     {
         "owner": "Microsoft",
+        "name": "MSSymbols",
         "public": true,
         "description": "This feed contains NuGet packages with symbols for all Microsoft apps.",
         "contact": "",

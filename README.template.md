@@ -3,8 +3,8 @@ This repository contains a list of all public or private NuGet feeds for Busines
 
 If the feed is private, the contact column contains the email address to contact for getting access.
 
-| Owner | Public | Content | View feed | View json | Contact |
-|---|:--:|---|:--:|:--:|:--:|
+| Owner | Name | Public | Content | View feed | View json | Contact |
+|---|---|:--:|---|:--:|:--:|:--:|
 {{TABLE_ROWS}}
 
 ## Using
