@@ -4,8 +4,6 @@ on:
   pull_request:
     branches:
       - main
-    paths:
-      - 'BcNuGetFeeds.json'
 
 permissions:
   contents: read
@@ -16,6 +14,18 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check for README.md changes
+        shell: pwsh
+        run: |
+          $changedFiles = git diff --name-only origin/${{ github.base_ref }}..HEAD
+          if ($changedFiles -contains 'README.md') {
+            Write-Host "❌ README.md should not be modified manually. It is auto-generated from README.template.md" -ForegroundColor Red
+            exit 1
+          }
+          Write-Host "✅ No manual README.md changes detected" -ForegroundColor Green
 
       - name: Validate JSON syntax and structure
         shell: pwsh
