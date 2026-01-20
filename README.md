@@ -5,7 +5,7 @@ If the feed is private, the contact column contains the email address to contact
 
 | Owner | Public | Content | View feed | View json | Contact |
 |---|:--:|---|:--:|:--:|:--:|
-| Continia | ✅ | This feed contains NuGet packages for AppSource Apps created by Continia | [View feed](https://dev.azure.com/continia-repository/ContiniaBCPublicFeeds/_artifacts/feed/AppSourceApps) | [View json](https://github.com/directions4partners/BcNuGetFeeds/blob/main/BcNuGetFeeds.json#L14) | [Contact](mailto:support@continia.com) |
+| Continia | ✅ | This feed contains NuGet packages for AppSource Apps created by Continia | [View feed](https://dev.azure.com/continia-repository/ContiniaBCPublicFeeds/_artifacts/feed/AppSourceApps) | [View json](https://github.com/directions4partners/BcNuGetFeeds/blob/main/BcNuGetFeeds.json#L14) | - |
 | Directions for Partners | ✅ | This feed contains all NuGet packages created by repositories in the Directions4partners organization | [View feed](https://github.com/orgs/directions4partners/packages) | [View json](https://github.com/directions4partners/BcNuGetFeeds/blob/main/BcNuGetFeeds.json#L2) | [Contact](mailto:freddy@directions4partners.com) |
 
 ## Contributing
