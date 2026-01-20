@@ -8,10 +8,11 @@ If the feed is private, the contact column contains the email address to contact
 {{TABLE_ROWS}}
 
 ## Contributing
-If you are aware of NuGet feeds, which should be in this list, please create a PR, adding the Business Central NuGet feed to BcNuGetFeeds.json in the following format:
 
 > **⚠️ Important:**  
 > Please do not include any information, which you are not allowed to share
+
+If you are aware of NuGet feeds, which should be in this list, please create a PR, adding the Business Central NuGet feed to BcNuGetFeeds.json in the following format:
 
 ```json
     {
