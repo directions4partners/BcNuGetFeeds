@@ -3,20 +3,7 @@ This repository contains a list of all public or private NuGet feeds for Busines
 
 | Owner | Public | Content | View feed | NuGetServerUrl | Fingerprints | Contact |
 |---|:--:|---|:--:|:--:|:--:|:--:|
-| Directions for partners | "Yes" | This feed contains all NuGet packages created by repositories in the Directions4partners organization | [View feed](https://github.com/orgs/directions4partners/packages) | <details>
-  <summary>Click to view JSON payload</summary>
-
-  ```json
-  {
-    "name": "Example",
-    "enabled": true,
-    "items": [1, 2, 3]
-  }
-```
-</details> | N/A | [Contact](mailto:freddy@directions4partners.com) |
-
-
-
+| {{owner}} | {{public}} | {{description}} | [View feed]({{viewfeed}) | [TrustedNuGetFeed]({{trustedNuGetFeed}}) | [Contact](mailto:{{contact}}) |
 
 ## Using public GitHub packages NuGet feeds
 GitHub packages NuGet feeds can be public, but you still need to provide a NuGet token with read:packages permission in order to use the feed. This can be achieved by creating a personal access token with read:packages permissions as the only thing. This PAT will not have access to anything, except search and download your private NuGet packages or public NuGet packages. You can also use your local token (gh auth token) if you add the read:packages scope to the scopes when using gh auth login.
