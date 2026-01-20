@@ -9,10 +9,11 @@ If the feed is private, the contact column contains the email address to contact
 | Directions for Partners | ✅ | This feed contains all NuGet packages created by repositories in the Directions4partners organization | [View feed](https://github.com/orgs/directions4partners/packages) | [View json](https://github.com/directions4partners/BcNuGetFeeds/blob/main/BcNuGetFeeds.json#L2) | [Contact](mailto:freddy@directions4partners.com) |
 
 ## Contributing
-If you are aware of NuGet feeds, which should be in this list, please create a PR, adding the Business Central NuGet feed to BcNuGetFeeds.json in the following format:
 
 > **⚠️ Important:**  
 > Please do not include any information, which you are not allowed to share
+
+If you are aware of NuGet feeds, which should be in this list, please create a PR, adding the Business Central NuGet feed to BcNuGetFeeds.json in the following format:
 
 ```json
     {
