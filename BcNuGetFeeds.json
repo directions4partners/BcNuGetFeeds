@@ -8,7 +8,7 @@
         "viewfeed": "https://github.com/orgs/directions4partners/packages",
         "url": "https://nuget.pkg.github.com/directions4partners/index.json",
         "patterns": [
-            
+            "*"
         ],
         "fingerprints": [
         ]
