@@ -21,6 +21,7 @@
         "viewfeed": "https://dev.azure.com/dynamicssmb2/DynamicsBCPublicFeeds/_artifacts/feed/AppSourceSymbols",
         "url": "https://dynamicssmb2.pkgs.visualstudio.com/DynamicsBCPublicFeeds/_packaging/AppSourceSymbols/nuget/v3/index.json",
         "patterns": [
+            "*"
         ],
         "fingerprints": [
         ]
@@ -34,6 +35,7 @@
         "viewfeed": "https://dev.azure.com/dynamicssmb2/DynamicsBCPublicFeeds/_artifacts/feed/MSApps",
         "url": "https://dynamicssmb2.pkgs.visualstudio.com/DynamicsBCPublicFeeds/_packaging/MSApps/nuget/v3/index.json",
         "patterns": [
+            "*"
         ],
         "fingerprints": [
         ]
@@ -47,6 +49,7 @@
         "viewfeed": "https://dev.azure.com/dynamicssmb2/DynamicsBCPublicFeeds/_artifacts/feed/MSSymbols",
         "url": "https://dynamicssmb2.pkgs.visualstudio.com/DynamicsBCPublicFeeds/_packaging/MSSymbols/nuget/v3/index.json",
         "patterns": [
+            "*"
         ],
         "fingerprints": [
         ]
