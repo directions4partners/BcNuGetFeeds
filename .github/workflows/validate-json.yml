@@ -86,6 +86,9 @@ jobs:
               if ($entry.patterns -isnot [System.Array]) {
                 $errors += "Entry '$entryName': Field 'patterns' must be an array"
               }
+              elseif ($entry.patterns.Count -eq 0) {
+                $errors += "Entry '$entryName': Field 'patterns' cannot be empty. Use '*' if no specific patterns are required"
+              }
               else {
                 foreach ($pattern in $entry.patterns) {
                   if ($pattern -isnot [string]) {
