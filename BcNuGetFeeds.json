@@ -14,6 +14,20 @@
         ]
     },
     {
+        "owner": "Continia",
+        "name": "Continia AppSource Apps",
+        "public": true,
+        "description": "This feed contains NuGet packages for AppSource Apps created by Continia",
+        "contact": "",
+        "viewfeed": "https://dev.azure.com/continia-repository/ContiniaBCPublicFeeds/_artifacts/feed/AppSourceApps",
+        "url": "https://pkgs.dev.azure.com/continia-repository/ContiniaBCPublicFeeds/_packaging/AppSourceApps/nuget/v3/index.json",
+        "patterns": [
+            "*"
+        ],
+        "fingerprints": [
+        ]
+    },
+    {
         "owner": "Microsoft",
         "name": "AppSourceSymbols",
         "public": true,
