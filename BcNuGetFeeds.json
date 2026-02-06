@@ -14,6 +14,34 @@
         ]
     },
     {
+        "owner": "Apportunix",
+        "name": "AppSourceSymbols",
+        "public": true,
+        "description": "This feed contains NuGet packages with symbols for Apportunix apps.",
+        "contact": "support@apportunix.com",
+        "viewfeed": "https://dev.azure.com/wsb-solutions/ApportunixPublic/_artifacts/feed/AppSourceSymbols",
+        "url": "https://pkgs.dev.azure.com/wsb-solutions/ApportunixPublic/_packaging/AppSourceSymbols/nuget/v3/index.json",
+        "patterns": [
+            "*"
+        ],
+        "fingerprints": [
+        ]
+    },
+    {
+        "owner": "Apportunix",
+        "name": "RuntimePackages",
+        "public": true,
+        "description": "This feed contains NuGet packages with run-time packages for Apportunix apps.",
+        "contact": "support@apportunix.com",
+        "viewfeed": "https://dev.azure.com/wsb-solutions/ApportunixPublic/_artifacts/feed/RuntimePackages",
+        "url": "https://pkgs.dev.azure.com/wsb-solutions/ApportunixPublic/_packaging/RuntimePackages/nuget/v3/index.json",
+        "patterns": [
+            "*"
+        ],
+        "fingerprints": [
+        ]
+    },
+    {
         "owner": "Continia",
         "name": "Continia AppSource Apps",
         "public": true,
