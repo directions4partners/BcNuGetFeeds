@@ -96,5 +96,19 @@
         ],
         "fingerprints": [
         ]
+    },
+    {
+        "owner": "NVision Commerce Solutions B.V.",
+        "name": "NVision Commerce Solution Apps",
+        "public": true,
+        "description": "This feed contains runtime packages for apps created by NVision Commerce Solutions.",
+        "contact": "support@n.vision",
+        "viewfeed": "https://github.com/orgs/NVision-Commerce-Solutions/packages",
+        "url": "https://nuget.pkg.github.com/NVision-Commerce-Solutions/index.json",
+        "patterns": [
+            "*"
+        ],
+        "fingerprints": [
+        ]
     }
 ]
