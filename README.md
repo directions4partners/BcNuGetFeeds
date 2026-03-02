@@ -12,6 +12,7 @@ If the feed is private, the contact column contains the email address to contact
 | Microsoft | AppSourceSymbols | ✅ | This feed contains NuGet packages with symbols for all AppSource Apps. | [View feed](https://dev.azure.com/dynamicssmb2/DynamicsBCPublicFeeds/_artifacts/feed/AppSourceSymbols) | [View json](https://github.com/directions4partners/BcNuGetFeeds/blob/main/BcNuGetFeeds.json#L16) | - |
 | Microsoft | MSApps | ✅ | This feed contains NuGet packages for all Microsoft apps. | [View feed](https://dev.azure.com/dynamicssmb2/DynamicsBCPublicFeeds/_artifacts/feed/MSApps) | [View json](https://github.com/directions4partners/BcNuGetFeeds/blob/main/BcNuGetFeeds.json#L72) | - |
 | Microsoft | MSSymbols | ✅ | This feed contains NuGet packages with symbols for all Microsoft apps. | [View feed](https://dev.azure.com/dynamicssmb2/DynamicsBCPublicFeeds/_artifacts/feed/MSSymbols) | [View json](https://github.com/directions4partners/BcNuGetFeeds/blob/main/BcNuGetFeeds.json#L86) | - |
+| NVision Commerce Solutions B.V. | NVision Commerce Solution Apps | ✅ | This feed contains runtime packages for apps created by NVision Commerce Solutions. | [View feed](https://github.com/orgs/NVision-Commerce-Solutions/packages) | [View json](https://github.com/directions4partners/BcNuGetFeeds/blob/main/BcNuGetFeeds.json#L100) | [Contact](mailto:support@n.vision) |
 
 ## Using
 Please find information about how to use NuGet feeds in AL-Go for GitHub [here](./AL-Go.md).
